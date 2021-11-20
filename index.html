@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <div class ="weather-app"> 
+            <div class="overview"></div>
     <h1> 
     New York, USA    
     </h1>
@@ -22,10 +23,15 @@
             Cloudy
         </li>
     </ul>
+</div>
     <div class="row">
     <div class="col-6">
-        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy" />
-        12°C | °F
+        <div class="clearfix weather-temperature">
+        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloudy" class="float-left" />
+        <div class="float-left">
+        <strong>12 </strong> °C | °F
+    </div>
+    </div>
 </div>
 <div class="col-6">
     <ul>

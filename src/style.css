@@ -38,3 +38,19 @@ padding: 20px;
 border: 1px solid #dadde1; 
 border-radius: 5px; 
 }
+
+.overview {
+    margin-bottom: 20px; 
+}
+
+.weather-temperature img {
+    margin-right: 10px; 
+    float: left; 
+    height: 64px; 
+    width: 64px; 
+
+}
+
+.weather-temperature strong {
+ color: blue;    
+}
